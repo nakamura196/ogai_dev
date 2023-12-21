@@ -1,7 +1,8 @@
 {
   "private": true,
   "scripts": {
-    "build": "nuxt build",
+    "build": "tinacms build && nuxt build",
+    "build_": "nuxt build",
     "dev_": "nuxt dev --dotenv .env.local",
     "dev": "tinacms dev -c \"nuxt dev\"",
     "dev:prod": "nuxt dev --dotenv .env.production",
