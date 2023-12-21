@@ -2,12 +2,14 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
-    "dev": "nuxt dev --dotenv .env.local",
+    "dev_": "nuxt dev --dotenv .env.local",
+    "dev": "tinacms dev -c \"nuxt dev\"",
     "dev:prod": "nuxt dev --dotenv .env.production",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "generate:local": "nuxt generate --dotenv .env.local",
-    "generate": "nuxt generate --dotenv .env.production",
+    "generate_": "nuxt generate --dotenv .env.production",
+    "generate": "tinacms build && nuxt generate --dotenv .env.production",
     "generate:stg": "nuxt generate --dotenv .env.stage"
   },
   "devDependencies": {

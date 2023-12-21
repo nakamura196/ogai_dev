@@ -20,3 +20,4 @@ dist
 .serverless
 
 public/data/xml/tmp
+.vercel
