@@ -9,7 +9,8 @@
     "postinstall": "nuxt prepare",
     "generate:local": "nuxt generate --dotenv .env.local",
     "generate_": "nuxt generate --dotenv .env.production",
-    "generate": "tinacms build && nuxt generate --dotenv .env.production",
+    "__generate": "tinacms build && nuxt generate --dotenv .env.production",
+    "generate": "tinacms build && nuxt generate --dotenv .env.local",
     "generate:stg": "nuxt generate --dotenv .env.stage"
   },
   "devDependencies": {
