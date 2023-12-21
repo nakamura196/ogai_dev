@@ -4,14 +4,16 @@
     "build": "tinacms build && nuxt build",
     "build_": "nuxt build",
     "dev_": "nuxt dev --dotenv .env.local",
-    "dev": "tinacms dev -c \"nuxt dev\"",
+    "___dev": "tinacms dev -c \"nuxt dev\"",
+    "dev": "nuxt dev --dotenv .env.local",
     "dev:prod": "nuxt dev --dotenv .env.production",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
     "generate:local": "nuxt generate --dotenv .env.local",
     "generate_": "nuxt generate --dotenv .env.production",
     "__generate": "tinacms build && nuxt generate --dotenv .env.production",
-    "generate": "tinacms build && nuxt generate --dotenv .env.local",
+    "___generate": "tinacms build && nuxt generate --dotenv .env.local",
+    "generate": "nuxt generate --dotenv .env.local",
     "generate:stg": "nuxt generate --dotenv .env.stage"
   },
   "devDependencies": {
