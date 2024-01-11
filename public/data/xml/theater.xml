@@ -1,0 +1,181 @@
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="tei_all_ja_450.rnc" type="application/relax-ng-compact-syntax"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader>
+<fileDesc>
+<titleStmt>
+<title xml:lang="ja">演劇問題に就いて</title>
+<title xml:lang="de">Über die Theaterfrage </title>
+<author xml:lang="ja">
+<idno type="VIAF">15096</idno>
+<persName>森林太郎</persName>
+</author>
+<respStmt>
+<resp xml:lang="ja">翻刻</resp>
+<persName xml:lang="ja">石原あえか</persName>
+</respStmt>
+<respStmt style="display: none;">
+<resp xml:lang="ja">TEIエンコーディング</resp>
+<persName xml:lang="ja">中村美里</persName>
+</respStmt>
+</titleStmt>
+<publicationStmt>
+<publisher>東京大学総合文化研究科・教養学部</publisher>
+<distributor>東京大学学術資産アーカイブ化推進室</distributor>
+<pubPlace>
+<address>
+<orgName>東京大学総合文化研究科・教養学部</orgName>
+<street>目黒区駒場3-8-1</street>
+<settlement>東京都</settlement>
+<postCode>153-0041</postCode>
+</address>
+</pubPlace>
+<date when="2023-02-06">2023年2月6日</date>
+<availability>
+<licence target="https://www.lib.u-tokyo.ac.jp/ja/library/contents/archives-top/reuse">東京大学総合文化研究科・教養学部の規定による</licence>
+</availability>
+</publicationStmt>
+<sourceDesc>
+<msDesc>
+<msIdentifier>
+<institution>
+東京大学総合文化研究科・教養学部
+<address>
+<addrLine>目黒区駒場3-8-1</addrLine>
+<district>東京都</district>
+<country>日本</country>
+</address>
+</institution>
+<idno>IV:C:397</idno>
+<idno type="URI">https://iiif.dl.itc.u-tokyo.ac.jp/repo/s/ichiko/document/d99de8a4-5abf-92ef-8efb-6770cce89e22</idno>
+</msIdentifier>
+<physDesc>
+<objectDesc>
+<supportDesc>
+<extent>
+1 v.
+<dimensions unit="cm">
+<height>27</height>
+</dimensions>
+</extent>
+</supportDesc>
+</objectDesc>
+</physDesc>
+<history>
+<origin>
+<p>
+Von West nach Ost（『東漸新誌』）は、独逸文雑誌會が
+<date when="1889-01">1889年1月</date>
+に創刊した日本初のドイツ語雑誌。実際の編集・刊行を行った実行会員は、森鷗外を筆頭に、北尾次郎、藤山治一、寺田勇吉の計4名である。
+</p>
+</origin>
+<provenance>
+<p>
+<date when="2018">2018年</date>
+に東京大学総合文化研究科・教養学部において井戸田総一郎氏（明治大学文学部教授）と村松洋氏（科学技術史研究者）により発見された。1号から10号までの合本形態で全170頁から成る（ただし創刊号の7-10頁を欠く）。
+</p>
+</provenance>
+</history>
+</msDesc>
+<biblStruct>
+<analytic>
+<author>森林太郎</author>
+<title xml:lang="ja">演劇問題に就いて</title>
+<title xml:lang="de">Über die Theaterfrage</title>
+</analytic>
+<monogr>
+<title xml:lang="ja">東漸新誌</title>
+<title xml:lang="de">Von West nach Ost</title>
+<imprint>
+<date when="1889">1889</date>
+</imprint>
+<biblScope unit="volume">5</biblScope>
+<biblScope unit="page" from="55" to="58">55-58</biblScope>
+</monogr>
+</biblStruct>
+</sourceDesc>
+</fileDesc>
+<encodingDesc>
+<editorialDecl>
+<p>
+テキストデータについて / Über die Textdaten
+<list>
+<item xml:lang="ja">これは東京大学駒場図書館で所蔵する、日本初のドイツ語雑誌『東漸新誌』第5号に掲載された森林太郎（森鷗外）の「演劇問題に就いて」の翻刻テキストデータである。この雑誌は長く所在不明であったが、2018年に駒場図書館で発見された。</item>
+<item xml:lang="de">Es geht um die Transkription der Abhandlung „Über die Theaterfrage“ von Rintaro MORI (Künstlername: Ogai MORI) aus der ersten deutschsprachigen Zeitschrift in Japan: Von West nach Ost (Bd. 5) im Besitz der Komaba-Bibliothek an der Universität Tokio. Dieser Artikel war lange verschollen und wurde erst im Jahre 2018 im Komaba-Campus wieder entdeckt.</item>
+<item xml:lang="ja">翻刻担当: 鶴田奈月，高山将敬，石原あえか（責任者）：2023年度春学期の教養学部後期演習授業（石原教授担当）の成果の一部</item>
+<item xml:lang="de">Transkribiert von Natsuki TSURUTA und Shokei TAKAYAMA unter der Leitung von Prof. Dr. Aeka ISHIHARA (Graduate School of Arts and Sciences)</item>
+<item xml:lang="ja">システム構築: 中村覚（史料編纂所助教 兼 附属図書館学術資産アーカイブ化推進室員）</item>
+<item xml:lang="de">System für das Digital-Archiv, aufgebaut von Dr. Satoru NAKAMURA (Historiographical Institute)</item>
+<item xml:lang="ja">TEIエンコーディング: 中村美里（附属図書館学術資産アーカイブ化推進室員）</item>
+<item xml:lang="de">TEI-Encoding von Misa NAKAMURA (General-Library)</item>
+</list>
+</p>
+<p>
+凡例 / Vorbemerkungen
+<list>
+<item xml:lang="ja">(1)森鷗外の時代のドイツ語正書法と現代の正書法とは異なる部分が多いため、読者への便宜を図り、一部、現代の正書法を参考までに併記している。該当箇所は赤字にしてあり、そこをクリックすると現代の正書法での表記が表示される。</item>
+<item xml:lang="de">(1)Die alte Rechtschreibung der damaligen Zeit (in Rot) ist teilweise beim Anklicken in heutiger Schreibweise dargestellt.</item>
+<item xml:lang="ja">(2)作品名は青字で表示している。</item>
+<item xml:lang="de">(2)Die Titel von literarischen Werken sind kursiv geschrieben und in Blau markiert.</item>
+<item xml:lang="ja">(3)［ ］内の数字は、ページの区切りをあらわしている。</item>
+<item xml:lang="de">(3)Die Zahlen in Klammern [ ] geben Seitenumbrüche an.</item>
+</list>
+</p>
+</editorialDecl>
+</encodingDesc>
+</teiHeader>
+    
+<text>
+<body>
+<head style="text-align: center;">Über die Theaterfrage</head>
+<pb n="1" corresp="#p28"/>
+<p>
+Seit <choice><orig>Voltaire's</orig><reg>Voltaires</reg></choice> <bibl><title>l'Orphelin de la Chine</title></bibl> auf die französische Bühne gebracht worden ist, gaben sich Davis, Pauthier, Bazin und Stanislaus Julien u. A. die Mühe, die <choice><orig>chinesiche</orig><reg>chinesische</reg></choice> Dramen dem europäischen Publicum bekannt zu machen. Auch in Deutschland hat Karl Rosenkranz schon im Jahre 1866 einen höchst interessanten Vortrag über denselben Gegenstand in einem zwar kleineren Kreise gehalten, welchen er jedoch später in seinen <bibl><title>„Neuen Studien“</title></bibl> (Leipzig, 1875) abdrucken ließ. Es dürfte wohl diesen <choice><orig>Thatsachen</orig><reg>Tatsachen</reg></choice> gegenüber manchen japanischen Lesern dieser Zeitschrift etwas befremdend erscheinen, daß unter den <choice><orig>litterarischen</orig><reg>literarischen</reg></choice> Erzeugnissen der Chinesen die Dramen es sind, die in Europa früher bekannt geworden als hier, wo doch das chinesische Element auf allen Gebieten des Volkslebens vertreten ist und wo man dem Theater zu jeder Zeit ein so reges Interesse entgegenzubringen pflegte. Woher denn diese auffallende Vernachlässigung gerade dieses Literaturzweiges? Die Antwort auf diese Frage liegt jetzt wohl jedem Denkenden nahe, der die tiefe Kluft zwischen der früheren gebildeten Welt und dem eigentlichen Volke empfinden gelernt hat, und dem es eine unerläßliche Aufgabe zu sein scheint, dieselbe mit allen Kräften auszufüllen. Was war denn das japanische Theater und was die japanischen Dramatiker im Auge der sogenannten gebildeten Welt? Wie standen doch die besten Schauspieler zu den anderen Künstlern und Sumô, den japanischen gewerbmäßigen Athleten? Jeder Schriftsteller hätte ja in Japan seine Achtung und sogar seine Ehre in Frage stellen müssen, wollte er selbst ein Theaterstück schreiben oder ein fremdländisches Theater <choice><orig>in's</orig><reg>ins</reg></choice> Japanische übersetzen. Wir brauchen nur auf unsern genialen GENNAI HIRAGA hinzuweisen, der in seiner <bibl><title>„Überfahrt von YAGUCHI“</title></bibl> ein der <choice><orig>Körner'schen</orig><reg>Körnerschen</reg></choice> <bibl><title>„Toni“</title></bibl> ebenbürtiges Stück schuf und dem man nicht einmal so viel Anerkennung zollen wollte, wie z. B. einem SHUNSUI, der mit seinen erotischen, durchweg in der Halbwelt spielenden Romanen immer unter den sogenannten Kennern der japanischen <choice>
+<orig>Litteratur</orig><reg>Literatur</reg></choice> viele Verehrer gefunden hat, und noch findet.
+<lb/>
+<space quantity="4" unit="chars"/>
+Die jungjapanischen Strömungen in dem politischen und <choice><orig>socialen</orig><reg>sozialen</reg></choice> Leben unsres Volkes haben auch das Theater nicht unberührt gelassen. Einer unsrer berühmten Gelehrten HYAKUSEN YODA verschmähte es nicht, in die Reihe der KYOGEN- oder Theaterdichter zu treten, deren Stellung bisher im Gegensatze zu den <choice><orig>Jôruri-dichtern</orig><reg>Jôruri-Dichtern</reg></choice> nur die des einfachen Regisseurs sein konnte, weil sie zumeist nur die <choice><orig>Jôruri-texte</orig><reg>Jôruri-Texte</reg></choice> mit vielen Auslassuugen und einigen unwesentlichen Abänderungen in <choice><orig>Scenen</orig><reg>Szenen</reg></choice> setzten. Mit dem ganzen Gewicht seiner Autorität versuchte nun YODA die engen Schranken der in Japan herkömmlichen dramatischen Dichtung durchzubrechen. Während er in kurzen Zwischenräumen hintereinander eine Reihe neuer Dramen verfaßte, war er fortwährend in Wort und Schrift bemüht, der japanischen Theaterwelt ein neues Leben einzuhauchen, sie aus ihrer langjährigen Lethargie aufzurütteln. Diese seine Thätigkeit gipfelte nun an seinen in der <bibl><title>„Zeitschrift zur Kunstreform“</title></bibl> (<bibl><title>Yengei Kyôfû Kai Zasshi</title></bibl> Nr. 2) erschienenen „Vorschlägen, wie man neue Dramen dichten soll,“ welche der ähnlichen Arbeit TSUBOUCHI's auf dem Gebiete der epischen Dichtung hätten zur Seite gestellt werden können, wenn der betref-
+<pb n="2" corresp="#p29"/>
+fende　Gegenstand mit etwas mehr Ausführlichkeit behandelt worden wäre, als es hier geschah.
+<lb/>
+<space quantity="4" unit="chars"/>
+In einer anderen, mehr dramaturgischen Richtung trat KENCHÔ SUYEMATSU mit seinen Reformgedanken in die Öffentlichkeit. Er vertrat an der Spitze des „Theater- Reform-Vereins“ die Ansicht, daß die ganze Reform mit dem Bau eines den neueren Forderungen durchaus genügenden Theaters in unsrer Hauptstadt anzufangen sei, „wie man früher vor <choice><orig>Allem</orig><reg>allem</reg></choice> die alte Stadt Yedo zur Haupt- und Residenzstadt Tokyo umstempelte, um der neuen japanischen Monarchie eine anschauliche Grundlage zu geben.“ Leider haben wir später nichts erfahren können, was aus diesen großartigen Plänen geworden ist. Es scheint, daß diese Pläne eben Pläne geblieben sind, wie manches in unserem Lande.<lb/>
+<space quantity="4" unit="chars"/>
+Das sind in kurzen Zügen die Bewegungen, welche wir stets mit größtem Interesse begleitet haben, und dessen Absichten auch von <choice><orig>unserm</orig><reg>uns(e)rem</reg></choice> <choice><orig>Standpunkte</orig><reg>Standpunkt</reg></choice> aus im Allgemeinen zu billigen sind, wenn auch die hervorragenden Reformmänner mit ihren Vorschlägen und Entwürfen nicht immer das Richtige getroffen zu haben scheinen.
+<lb/>
+<space quantity="4" unit="chars"/>
+Was zunächst die dramatischen Dichtungen selbst anbetrifft, so fiel schon vor Dezennien der verstorbene Züricher Professor Johannes Scherr in seiner <bibl><title>„Geschichte der Weltlitteratur“</title></bibl> wohl nicht ganz mit Unrecht das harte <choice><orig>Urtheil</orig><reg>Urteil</reg></choice>, daß Japan dramatische Spiele habe, aber kaum eine echtdramatische <choice><orig>Litteratur</orig><reg>Literatur</reg></choice>. Indessen würde dieses <choice><orig>Urtheil</orig><reg>Urteil</reg></choice> des so wohl im Lob als im Verdammen schroffen Mannes vielleicht etwas milder ausgefallen sein, wenn er die besseren Arbeiten eines NOBUMORI CHIKAMATSU oder IZUMO TAKEDA gekannt hätte. Jedoch dies ändert die Sache nicht viel! Da es sich bei den alten <choice><orig>Jôruri-dichtern</orig><reg>Jôruri-Dichtern</reg></choice> vor <choice><orig>Allem</orig><reg>allem</reg></choice> darum handelte, in einzelnen, Szenen eines jeden über 10 Aufzüge zählenden, langathmigen Stückes möglichst viel <choice><orig>Bühneneffecte</orig><reg>Bühneneffekte</reg></choice> zu erzielen, so konnte es nicht ausbleiben, daß sie zuweilen wirklich „nur lose verbundene Reihenfolgen von dramatischen Bildern“ schufen, reich an kleinen, oft komischen Episoden. Wir stimmen daher SUYEMATSU vollkommen bei, wenn er in seinen den Theaterbau betreffenden Vorschlägen nebenbei die japanischen Dichter darauf aufmerksam gemacht, daß man vor allem in jedem Drama die Einheit der Handlung auf der Bühne zu verlangen habe.
+<lb/>
+<space quantity="4" unit="chars"/>
+Betrachten wir nun die einzelnen Gesichtspunkte, auf welche YODA seine Reformgedanken zurückgeführt hat, so sind zunächst die Forderungen, welche er den drei japanischen Dramengattungen, den Klassikern (Maruhon oder Jidaimono), den Fürstendramen (Oiyemono) und den Zeitdramen (Sewamono) gestellt hat, durchaus gut zu heißen, ebenso der Wunsch, daß die besten europäischen Dramen fleißig <choice><orig>in's</orig><reg>ins</reg></choice> Japanische übersetzt werden sollen. Hierbei sei auch die von SUYEMATSU deutlich ausgesprochene Ansicht berücksichtigt, daß die zukünftigen Dramen nicht mehr die Form der <choice><orig>Jôruri-gesänge</orig><reg>Jôruri-Gesänge</reg></choice>, sondern nur die des Textbuches (Daichô) annehmen müssen. Seine Empfehlung jedoch, die genannten Dichtungen mit möglichst vielen Sentenzen (Meimonku) zu schmücken, möchten wir um Mißverständnisse zu vermeiden, dahin erweitern, daß es überhaupt anzustreben ist, jedem Drama durch Verbesserung ihres Styls, durch Vertiefung des Inhaltes eine bleibende Bedeutung zu verleihen.
+<lb/>
+<space quantity="4" unit="chars"/>
+Dann aber dürfte es einwenig pedantisch erscheinen, wenn es SUYEMATSU mit seinen beiden Beispielen HAMAJI (eine Heldin in dem BAKIN'schen Romane Hakkenden, ein Muster der bräutlichen Treue bis in den Tod) und UMEGAWA (Geliebte CHÛBEI's aus der Halbwelt, deren Treue und Aufopferung den Lesern wohl bekannt sein wird) so meint, daß eine Buhlerin überhaupt wegen ihrer unsittlichen Existenz nicht zur Hauptfigur eines Dramas geeignet sei, und wenn er weiter behauptet, daß „alles Grausame, Ungerechte und Unsittliche“ von der
+<pb n="3" corresp="#p30"/>
+Bühne verbannt werden soll. Diese <choice><orig>moralisirende</orig><reg>moralisierende</reg></choice> Richtung tritt auch in dem Aufsatze von YODA ziemlich in den Vordergrund, weil er das Theater allerdings nicht als eine Schule, aber noch gewissermaßen als eine Anstalt betrachtet, „wo das <choice><orig>Publicum</orig><reg>Publikum</reg></choice> die menschliche Gesellschaft in allen ihren Gestaltungen kennen lernen soll“, daß eine solche Anschauung keine ganz zutreffende ist, bedarf wohl keiner Erörterung! Wir wollen hier nur noch hinzufügen, daß die Harakiri und Vendetta, deren Häufigkeit in den japanischen Stücken auch Rein auffiel, unsrer Ansicht nach wohl zu dramatischen Zwecken verwendet werden können, wenn man sie nur nicht vor dem <choice><orig>Publicum</orig><reg>Publikum</reg></choice> vollziehen läßt. Gleiche Maßregeln wollen auch bei den Torturen, Executionen etc., beobachtet sein.
+<lb/>
+<space quantity="4" unit="chars"/>
+Von der Schauspielkunst selbst wird von YODA mit Recht verlangt, daß die an die Karrikatur streifende Pantomimik (Furigoto) des früheren Theaters mehr natürlichen Gesten Platz mache, und daß die von Hermann Maron als „unsichtbare Musik“ bezeichnete Begleitung (Ushiro oder Aikata) an vielen Stellen erhalten bleibe. Dagegen wünschen wir wider ihn die opernhaften Elementen der bisherigen Schauspiele, den Tanz (Shosagoto), den Gebrauch der Taktbrettchen (Tsuke), welches übrigens ein Überbleibsel des alten Puppenspiels ist, und die von ihm nicht genannte „sichtbare“ Musik (Degatari), welche oft den Monolog und das „Bei-Seite“ des europäischen Stückes ersetzt, möglichst vollständig auszuschalten, damit das Wesentliche in der Schauspielkunst nicht mehr von dem Zufälligen verdeckt wird, wenn anders nicht für die “Opern ohne Gesang“ eine völlig von den Schauspielen getrennte Existenz gesichert werden können. Eine Ausnahme machen wir aber mit Ôzatsuma, dem wirkungsvollen Gesange, welcher besonders oft der Darstellung irgend eines gewaltigen Naturereignisses vorangeschickt wird. Die eigenartigen <choice><orig>Vertheilungen</orig><reg>Verteilungen</reg></choice> der Gespräche, wie Warijerifu und Watarijerifu, sollten nun ebenfalls geschont bleiben, da sie in der <choice><orig>That</orig><reg>Tat</reg></choice> nichts Opernhaftes an sich haben.
+<lb/>
+<space quantity="4" unit="chars"/>
+In Bezug auf das Theatergebäude wußte YODA den Vorwurf, welcher von <choice><orig>andern</orig><reg>anderen</reg></choice> Seiten dem SUYEMATSU’schen neuen Theater gemacht wurde, dass der nicht feinere Theil des <choice><orig>Publicums</orig>
+<reg>Publikums</reg></choice> nach der vollzogenen Reform kein Theater mehr haben wird, gewandt umzugehen, indem er das <choice><orig>reformirte</orig><reg>reformierte</reg></choice> Theater als ein <choice><orig>isolirt</orig><reg>isoliert</reg></choice> stehendes Theater ersten Rangs hinstellt, durch welches die Theater zweiten und dritten Rangs keineswegs beschädigt, sondern vielmehr veredelnd beeinflusst werden müssen.
+<lb/>
+<space quantity="4" unit="chars"/>
+Von den Maschinerien der Bühne werden von SUYEMATSU ihre Drehung um die <choice><orig>verticale</orig><reg>vertikale</reg></choice> Axe (Mawaributai) und das Heben und Senken eines Theils der Bühne (Seridashi) geduldet, die vordere Reihe des Parquets (Koichi) soll zum modernen Orchester umgewandelt werden, <choice><orig>Obwohl</orig><reg>obwohl</reg></choice> wir mit diesen Vorschlägen im Großen und Ganzen einverstanden sind, können wir ihm leider in einem andern Punkte nicht zustimmen, ―es ist dies die Existenzfrage der SUYEMATSU so lästigen Gänge (Hanamichi), wovon Maron in seinem <bibl><title>„Japan und China“</title></bibl> ein sehr anschauliches Bild gibt, welches ich hier zum Schluße dieser Betrachtung wiedergebe!<lb/>
+<space quantity="4" unit="chars"/>
+„……die Japaner haben sich aber in der äußeren Gestaltung ihrer Schaubühne noch ein interessantes <choice><orig>Hülfsmittel</orig><reg>Hilfsmittel</reg></choice> geschaffen, welches uns abgeht, und über dessen <choice><orig>Werth</orig><reg>Wert</reg></choice> selbst für einzelne Kategorien unserer Schaubühne sich debattiren ließe. Wir kennen nämlich keine anderen Zugänge zu unserer Bühne, als diejenigen, die überhaupt jenseits des Vorhangs möglich sind. Aus der vorhin gegebenen Beschreibung und Zeichnung geht aber hervor, daß die ganze Länge des Zuschauerraumes von zwei parallelen Gängen durchschnitten wird, welche direkt auf die Bühne führen, diese Gänge haben nicht nur den Zweck, das <choice><orig>Parterre-Publicum</orig><reg>Parterre-Publikum</reg></choice> zu seinen Sitzen zu geleiten, sie führen vielmehr aus kleinen seitwärts an der Eingangs-Fronte angebrachten Garderobe-
+<pb n="4" corresp="#p31"/>
+Zimmern auch einzelne Schauspieler ihrem <choice><orig>Bestimmungsorte</orig><reg>Bestimmungsort</reg></choice> entgegen. Sie verweilen auf diesem Gange, der sie mitten unter das <choice><orig>Publicum</orig><reg>Publikum</reg></choice> bringt, oft 5 bis 10 Minuten, sowohl pantomimisch als deklamatorisch beschäftigt; der Dialog mit den Personen auf der Bühne beginnt oft schon, wenn sie das äußerste Ende des Ganges betraten, sich also etwa am Eingange des Theaters befinden. Bisweilen erscheinen gleichzeitig auf beiden Gängen z. B. Helden, rufen sich an, höhnen sich, fordern sich heraus und schreiten allmählich gegen die Bühne, sei es zum Kampfe, sei es zum Frieden. Wie viel schwieriger die Aufgabe des Schauspielers dadurch wird, liegt auf der Hand. Er bildet nach allen Seiten hin gleichsam eine Front, und soll den Anblick von jeder Seite künstlerisch schön gestalten, keine üble Probe für unsere Helden, sie einmal mitten <choice><orig>in’s</orig><reg>ins</reg></choice> <choice><orig>Parquet</orig><reg>Parkett</reg></choice> zu stellen und <choice><orig>agiren</orig><reg>agieren</reg></choice> zu lassen!“<lb/>
+<space quantity="4" unit="chars"/>
+„Mich dünkt überhaupt, daß in dieser Einrichtung etwas <choice><orig>Practisches</orig><reg>Praktisches</reg></choice> liegt, das sich nicht verkennen läßt; sie erweitert das szenische Moment im Theater ganz auffallend und eröffnet dem dramatischen Schriftsteller eine unendliche Reihe von Szenen (Verwickelungen und Auflösungen), die ihm bei uns als Unmöglichkeiten verloren gehen. Dann aber hält sie die Aufmerksamkeit und Spannung in <choice><orig>hohem</orig><reg>hoher</reg></choice> Grade aufrecht; das Auge des Zuschauers wird von seiner ewigen einseitigen Richtung abgelenkt und hat den Raum des ganzen Theaters fortwährend zu überwachen.“<lb/>
+</p>
+</body>
+</text>
+<facsimile source="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d99de8a4-5abf-92ef-8efb-6770cce89e22/manifest">
+<surface source="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d99de8a4-5abf-92ef-8efb-6770cce89e22/canvas/p28" xml:id="p28"> </surface>
+<surface source="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d99de8a4-5abf-92ef-8efb-6770cce89e22/canvas/p29" xml:id="p29"> </surface>
+<surface source="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d99de8a4-5abf-92ef-8efb-6770cce89e22/canvas/p30" xml:id="p30"> </surface>
+<surface source="https://iiif.dl.itc.u-tokyo.ac.jp/repo/iiif/d99de8a4-5abf-92ef-8efb-6770cce89e22/canvas/p31" xml:id="p31"> </surface>
+</facsimile>
+</TEI>
